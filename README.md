@@ -1,4 +1,4 @@
-# ecommerce_mern
+# ProShop eCommerce Platform
 A full stack ecommerce website build from scratch using MERN & redux
 
 This project is deployed on heroku [Click to Vist](https://proshop-mern-app-piyush.herokuapp.com/)
