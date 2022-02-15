@@ -1,7 +1,7 @@
 # ProShop eCommerce Platform
 A full stack ecommerce website build from scratch using MERN & redux
 
-This project is deployed on heroku [Click to Vist](https://proshop-mern-app-piyush.herokuapp.com/)
+This project is deployed on heroku [Click to Vist and Test](https://proshop-mern-app-piyush.herokuapp.com/)
 
 ## Features
 
@@ -29,7 +29,7 @@ Create a .env file in then root and add the following
 NODE_ENV = development
 PORT = 5000
 MONGO_URI = your mongodb uri
-JWT_SECRET = 'abc123'
+JWT_SECRET = your secret key
 PAYPAL_CLIENT_ID = your paypal client id
 ```
 
