@@ -5,10 +5,10 @@ This project is deployed on heroku [Click to Vist and Test](https://proshop-mern
 
 ## Screenshots
 
-[Click to view more Screenshots](https://github.com/piyush-21082001/ecommerce_mern/tree/master/uploads/screenshots)
+[Click to view more Screenshots](https://github.com/piyush-21082001/ecommerce_mern/tree/master/screenshots)
 
 
-![screenshot](https://github.com/piyush-21082001/ecommerce_mern/blob/master/uploads/screenshots/home.png)
+![screenshot](https://github.com/piyush-21082001/ecommerce_mern/blob/master/screenshots/home.png)
 
 ## Features
 
