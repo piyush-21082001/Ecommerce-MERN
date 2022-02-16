@@ -8,7 +8,7 @@ This project is deployed on heroku [Click to Vist and Test](https://proshop-mern
 [Click to view more Screenshots](https://github.com/piyush-21082001/ecommerce_mern/tree/master/uploads/screenshots)
 
 
-![screenshot](https://github.com/piyush-21082001/ecommerce_mern/blob/master/uploads/screenshots/home_page_ss.png)
+![screenshot](https://github.com/piyush-21082001/ecommerce_mern/blob/master/uploads/screenshots/home.png)
 
 ## Features
 
