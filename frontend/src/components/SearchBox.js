@@ -32,13 +32,16 @@ const SearchBox = () => {
           ></Form.Control>
         </Col>
         <Col className='my-1'>
-          <Button
-            type='submit'
-            variant='outline-success'
-            className='shadow-sm rounded p-2'
-          >
-            <i className='fa-solid fa-magnifying-glass'></i>
-          </Button>
+          <div className='d-grid gap-2'>
+            <Button
+              type='submit'
+              variant='outline-success'
+              size='lg'
+              className='shadow-sm rounded p-2'
+            >
+              <i className='fa-solid fa-magnifying-glass'></i>
+            </Button>
+          </div>
         </Col>
       </Row>
     </Form>
