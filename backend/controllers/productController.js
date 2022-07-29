@@ -7,15 +7,15 @@ import Product from '../models/productModel.js'
 const getProducts = asyncHandler(async (req, res) => {
   const pageSize = 8
   const page = Number(req.query.pageNumber) || 1
-  const keyword = req.query.keyword
+  const keyword = req.query.keyword // use of regex mathching from mongo syntax---> { <field>: { $regex: 'pattern', $options: '<options>' } }
     ? {
-        name: {
+        name: { 
           $regex: req.query.keyword,
-          $options: 'i',
+          $options: 'i', //Case insensitivity to match upper and lower cases
         },
       }
     : {}
-  const count = await Product.countDocuments({ ...keyword })
+  const count = await Product.countDocuments({ ...keyword }) // counts the number of string match 
   const products = await Product.find({ ...keyword })
     .limit(pageSize)
     .skip(pageSize * (page - 1))

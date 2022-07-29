@@ -43,7 +43,7 @@ const RegisterScreen = () => {
       <Meta title='Register' />
       <FormContainer>
         <h1>Sign Up</h1>
-        {error && <Message variant='danger'>{error}</Message>}
+        {error && <Message variant='danger'>{error.message}</Message>}
         {message && <Message variant='danger'>{message}</Message>}
         {loading && <Loader />}
         <Form onSubmit={submitHandler}>

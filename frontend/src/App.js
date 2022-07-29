@@ -27,7 +27,6 @@ const App = () => {
           <Routes>
             <Route path='/order/:id' element={<OrderScreen />} />
             <Route path='/placeorder' element={<PlaceOrderScreen />} />
-            <Route path='/placeorder' element={<PlaceOrderScreen />} />
             <Route path='/payment' element={<PaymentScreen />} />
             <Route path='/shipping' element={<ShippingScreen />} />
             <Route path='/profile' element={<ProfileScreen />} />
@@ -52,12 +51,12 @@ const App = () => {
             />
             <Route path='/admin/userlist' element={<UserListScreen />} />
             <Route path='/admin/user/:id/edit' element={<UserEditScreen />} />
-            <Route path='/search/:keyword' element={<HomeScreen />} />
+            <Route path='/search/:keyword' element={<HomeScreen />} /> {/*search*/}
             <Route
               path='/search/:keyword/page/:pageNumber'
-              element={<HomeScreen />}
-            />
-            <Route path='/page/:pageNumber' element={<HomeScreen />} />
+              element={<HomeScreen />} 
+            />{/*search result multiple pages*/}
+            <Route path='/page/:pageNumber' element={<HomeScreen />} />{/*handle multiple pages for extra products*/}
             <Route path='/' element={<HomeScreen />} />
           </Routes>
         </Container>
